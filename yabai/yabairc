@@ -1,0 +1,47 @@
+### yabairc
+### cwillsey
+### 07-07-2022 [03:21]
+
+## Copyright (C) 2022 Coltrane Willsey (cwillsey06@gmail.com)
+## Everyone is permitted to copy and distribute copies of this file under GNU GPL-3.0
+
+### scripting additions auto-load
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
+### bsp mode
+yabai -m config layout bsp
+
+### padding
+yabai -m config top_padding    40
+yabai -m config bottom_padding 40
+yabai -m config left_padding   40
+yabai -m config right_padding  40
+yabai -m config window_gap     20
+
+## status bar padding
+yabai -m config external_bar all:0:32
+
+
+### mouse interaction
+# set mouse interaction modifier key (default: fn)
+yabai -m config mouse_modifier ctrl
+
+# set modifier + left-click drag to move window (default: move)
+yabai -m config mouse_action1 move
+
+# set modifier + right-click drag to resize window (default: resize)
+yabai -m config mouse_action2 resize
+
+## mouse focus
+yabai -m config focus_follows_mouse autofocus
+#yabai -m config mouse_follows_focus on
+
+
+### window management
+# floating windows are always on top
+yabai -m config window_topmost on
+
+# shadows only on floating windows
+yabai -m config window_shadow float
+
