@@ -38,6 +38,11 @@ ctrl + shift - 3 : yabai -m window --space 3
 ctrl + shift - 4 : yabai -m window --space 4
 ctrl + shift - 5 : yabai -m window --space 5
 ctrl + shift - 6 : yabai -m window --space 6
+ctrl + shift - 7 : yabai -m window --space 7
+ctrl + shift - 8 : yabai -m window --space 8
+ctrl + shift - 9 : yabai -m window --space 9
+ctrl + shift - 0 : yabai -m window --space 10
+
 
 # close window
 ctrl - q : yabai -m window --close
@@ -49,13 +54,17 @@ ctrl - space : yabai -m window --toggle float
 
 
 ### workspace navigation
-# 1 - 6 workspace keys
+# 1 - 10 workspace keys
 ctrl - 1 : yabai -m space --focus 1
 ctrl - 2 : yabai -m space --focus 2
 ctrl - 3 : yabai -m space --focus 3
 ctrl - 4 : yabai -m space --focus 4
 ctrl - 5 : yabai -m space --focus 5
 ctrl - 6 : yabai -m space --focus 6
+ctrl - 7 : yabai -m space --focus 7
+ctrl - 8 : yabai -m space --focus 8
+ctrl - 9 : yabai -m space --focus 9
+ctrl - 0 : yabai -m space --focus 10
 
 # L/R workspace navigation
 ctrl + cmd - left : yabai -m space --focus prev
